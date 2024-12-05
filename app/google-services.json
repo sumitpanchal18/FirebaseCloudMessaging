@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "629477147884",
+    "project_id": "fbcm-d21df",
+    "storage_bucket": "fbcm-d21df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629477147884:android:cd898a597395bc8bbad1c9",
+        "android_client_info": {
+          "package_name": "com.example.firebasecloudmessage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYIuyUPL21ox0mcxr05nJ7JOLjonZRk4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
