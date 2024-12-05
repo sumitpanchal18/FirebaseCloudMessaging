@@ -1,7 +1,8 @@
-package com.example.firebasecloudmessage
+package com.example.firebasecloudmessage.fcm
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.firebasecloudmessage.R
 import com.google.firebase.firestore.FirebaseFirestore
 
 class MainActivity : AppCompatActivity() {

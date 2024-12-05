@@ -1,4 +1,4 @@
-package com.example.firebasecloudmessage
+package com.example.firebasecloudmessage.fcm
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -7,6 +7,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import androidx.core.app.NotificationCompat
+import com.example.firebasecloudmessage.R
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 

@@ -52,6 +52,8 @@ dependencies {
     implementation(libs.firebase.messaging)
     implementation(libs.firebase.core)
 
+    // payment razorpay
+//    implementation("com.razorpay:razorpay-android:2.10.0")
 
 
 }
