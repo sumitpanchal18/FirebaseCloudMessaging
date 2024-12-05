@@ -1,4 +1,4 @@
-package com.example.firebasecloudmessage
+package com.example.firebasecloudmessage.fcm
 
 import android.app.Application
 import com.google.firebase.FirebaseApp
