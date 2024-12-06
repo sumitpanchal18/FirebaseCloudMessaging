@@ -2,12 +2,19 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
+
 }
 
 android {
     namespace = "com.example.firebasecloudmessage"
     compileSdk = 35
 
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
     defaultConfig {
         applicationId = "com.example.firebasecloudmessage"
         minSdk = 24
@@ -54,6 +61,15 @@ dependencies {
 
     // payment razorpay
 //    implementation("com.razorpay:razorpay-android:2.10.0")
+
+    /// Firebase Crashlytics
+
+    // Import the BoM for the Firebase platform
+    implementation(platform(libs.firebase.bom))
+
+    // Add the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation("com.google.firebase:firebase-crashlytics-ktx:19.2.1")
 
 
 }
